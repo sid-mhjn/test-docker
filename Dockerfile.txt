@@ -1,0 +1,4 @@
+FROM openjdk:latest
+WORKDIR /
+COPY app.jar /run/app.jar
+CMD java -jar /run/app.jar
